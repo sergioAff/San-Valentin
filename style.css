@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(185, 141, 193);
+  font-size: 62.5%;
+}
+
+.card {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(50deg, rgb(20, 19, 19), rgb(214, 21, 182));
+  width: 70%;
+  height: 70%;
+  border-radius: 50px;
+  box-shadow: 1px 1px 100px rgb(173, 23, 187);
+  transition: all 1s;
+}
+.palabras {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 6rem;
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+.cover__happy {
+  color: rgb(229, 173, 230);
+}
+.cover__valentine {
+  color: rgb(238, 76, 17);
+}
+.cover__day {
+  color: rgb(157, 91, 219);
+}
+.cover img {
+  width: 50%;
+  border-radius: 20%;
+  filter: contrast(85%);
+}
+.cover:hover {
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+
+.palabras:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(183, 5, 199);
+}
